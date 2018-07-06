@@ -1,0 +1,5 @@
+GitÃüÁî£º
+
+¿ËÂ¡ÏîÄ¿£º
+git clone https://github.com/qxx918/smallBillSystem.git
+
