@@ -33,7 +33,7 @@
 
 9. 删除文件并提交
    git rm 文件名称
-   git commit -m "remove 文件名称"
+   git commit -m "remove 文件名称"   （注意：git base here 创建输入中文，会有问题，但使用idea中的终端terminal可以是中文）
 
 10. 查看日志
   git log （日志简洁版：git log --pretty=oneline）
@@ -43,7 +43,15 @@
 
    git checkout  finsuit-prd/src/main/java/com/udo/finsuit/service/impl/FinsuitFifawcServiceImpl.java
 
-12. 
+12. git放弃本地修改、新增、删除的文件
+
+   git checkout . && git clean -df   可以放弃所有修改、删除的文件
+
+   git clean -df   删除新增的文件（未受版本控制的文件）
+
+   -d 表示同时移除目录，-f 表示force强制，因为在git的配置文件中，clean.requireForce=true，如果不加-f，clean将会拒绝执行。
+
+13. abc
 
 
 
